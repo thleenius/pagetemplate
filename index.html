@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+	<title>Page Templates Prototype</title>
+	
+	<!--this is my practice projecct-->
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h1>Page Template</h1>
+		<div>
+			<span class="attribute">Item:</span><span> G2 Pens</span></br>
+			<span class="attribute color1">Color:</span><input type="text" id="color-input"></br>
+			<span class="attribute point-size1">Point Size:</span><input type="text" id="pointsize-input"></br>
+			<span class="attribute pack-size1">Pack Size:</span><input type="text" id="packsize-input"></br>
+			<button id="go-button">Go</button>
+		</div>
+
+		<div id="title">
+			<span class="item-name">G2 Pens, </span><span class="point-size">{Point Size}</span><span> Point, </span><span class="color">{Color}</span><span>, </span><span class="pack-size">{Pack Size}</span><span> Count</span>
+		</div>
+
+		<div id="img"></div>
+
+		<div id="grouping">
+			<span class="attribute">Color: </span><span class="color">{Color}</span></br>
+			<span class="attribute">Point Size: </span><span class="point-size">{Point Size}</span> Point</br>
+			<span class="attribute">Pack Size: </span><span class="pack-size">{Pack Size}</span> Count</br>
+		</div>
+
+		<div id="description">
+			<div id="description-box">
+				<h3>Product Desctription</h3>
+				<p>
+					Description of G2 Pens description of G2 Pens blah blah blah. Description of G2 Pens description of G2 Pens blah blah blah. Description of G2 Pens description of G2 Pens blah blah blah. Description of <span class="color">{Color}</span> G2 Pens description of G2 <span class="point-size">{Point Size}</span> Point Pens blah blah blah <span class="pack-size">{Pack Size}</span> Count.
+				</p>
+			</div>
+		</div>
+
+		
+
+		<div id="specs">
+			<div id="specs-box">
+				<div class="gray"><span class="attribute">Color: </span><span class="color">{Color}</span></br></div>
+				<span class="attribute">Point Size: </span><span class="point-size">{Point Size}</span> Point</br>
+				<div class="gray"><span class="attribute">Pack Size: </span><span class="pack-size">{Pack Size}</span> Count</div>
+			</div>
+		</div>
+
+	<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+	<script src='main.js'></script>
+
+	</body>
+</html>
+

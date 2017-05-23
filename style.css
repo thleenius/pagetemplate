@@ -1,0 +1,78 @@
+.attribute {
+	font-weight: bold;
+}
+
+#title {
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#img {
+	background-color: gray;
+	border: 1px solid black;
+	width: 480px;
+	height: 360px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+#grouping {
+	float: right;
+	/*margin-right: 300px;*/
+	width: 50%;
+}
+
+#specs {
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#specs-box {
+	width: 480px;
+	border: 1px solid black;
+}
+
+.gray {
+	background-color: #dedede;
+}
+
+#description {
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#description-box {
+	width: 480px;
+	border: 1px solid black;
+}
+
+.color {
+	color: red;
+}
+
+.point-size {
+	color: blue;
+}
+
+.pack-size {
+	color: green;
+}
+
+.color1 {
+	color: red;
+}
+
+.point-size1 {
+	color: blue;
+}
+
+.pack-size1 {
+	color: green;
+}
